@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #FFA900;
+}
+
+h1 {
+  color: #5E454B;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+.box {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #FFE194;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  background: #FFE194;
+  margin-left: 200px;
+  margin-top: 50px;
+  line-height: 20px;
+  transition: 0.3s;
+}
+
+.rotate:hover {
+  transform: rotateY(1turn);
+  background: #D62AD0;
+}
+
+.scale:hover {
+  transform: scale(1.5)
+}
+
+.transform:hover {
+  transform: rotate(-20deg);
+}
+
+.squares {
+  display: inline-block;
+}
+
+.square {
+  border: 1px solid #FFE194;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  background: #FFE194;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.square:hover {
+  transform: rotate(20deg);
+  background: #52006A;
+}
+
+.square2 {
+  border: 1px solid #FFE194;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  background: #FFE194;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.square3 {
+  border: 1px solid #A3A847;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  background: #A3A847;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.square3:hover {
+  background: #D83A56;
+}
